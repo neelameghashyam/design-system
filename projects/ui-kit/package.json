@@ -1,0 +1,25 @@
+{
+  "name": "@YOUR_GITHUB_ORG/ui-kit",
+  "version": "0.1.0",
+  "description": "Company design system — Vue 3 component library",
+  "type": "module",
+  "main": "./dist/index.mjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": ["dist"],
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "types": "./dist/index.d.ts"
+    },
+    "./styles": "./dist/index.css"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "peerDependencies": {
+    "vue": "^3.4.0",
+    "vue-router": "^4.0.0"
+  },
+  "sideEffects": ["*.css", "*.scss"]
+}

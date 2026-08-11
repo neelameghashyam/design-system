@@ -1,0 +1,13 @@
+@use './tokens';
+@use './mixins';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family-base);
+  color: var(--color-text);
+  background: var(--color-bg-light);
+  margin: 0;
+}
