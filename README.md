@@ -40,8 +40,6 @@ npm run dev                # → http://localhost:5173
 # Build the publishable library (dist/)
 npm run build
 
-# Run unit tests
-npm test
 ```
 
 ## Adding a new component
@@ -124,7 +122,7 @@ import '@YOUR_GITHUB_ORG/ui-kit/styles';
 app.use(createCoreUi());
 ```
 
-## Publishing Storybook (optional)
+## Publishing Storybook 
 
 `.github/workflows/storybook.yml` builds Storybook and deploys it to GitHub
 Pages on every push to `main`, so your team has a live, browsable component
