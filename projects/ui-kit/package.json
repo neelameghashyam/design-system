@@ -1,12 +1,14 @@
 {
   "name": "@neelameghashyam/ui-kit",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Company design system — Vue 3 component library",
   "type": "module",
   "main": "./dist/index.mjs",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "exports": {
     ".": {
       "import": "./dist/index.mjs",
@@ -21,5 +23,8 @@
     "vue": "^3.4.0",
     "vue-router": "^4.0.0"
   },
-  "sideEffects": ["*.css", "*.scss"]
+  "sideEffects": [
+    "*.css",
+    "*.scss"
+  ]
 }
