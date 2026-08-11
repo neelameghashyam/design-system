@@ -2,8 +2,8 @@ import { createApp } from 'vue';
 import { createRouter, createWebHistory } from 'vue-router';
 import App from './App.vue';
 import { routes } from './routes';
-import { createCoreUi } from '@YOUR_GITHUB_ORG/ui-kit';
-import '@YOUR_GITHUB_ORG/ui-kit/styles';
+import { createCoreUi } from '@neelameghashyam/ui-kit';
+import '@neelameghashyam/ui-kit/styles';
 
 const router = createRouter({
   history: createWebHistory(),

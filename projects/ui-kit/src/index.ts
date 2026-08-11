@@ -1,7 +1,7 @@
 /**
  * Core UI — Vue 3 Design System
  * Public API surface — everything exported here is what consumers get
- * via `import { X } from '@YOUR_GITHUB_ORG/ui-kit'`
+ * via `import { X } from '@neelameghashyam/ui-kit'`
  */
 
 // Base styles (bundled into dist/ui-kit.css)

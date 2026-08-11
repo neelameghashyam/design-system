@@ -11,8 +11,8 @@ export default defineConfig({
   },
  resolve: {
   alias: {
-    '@YOUR_GITHUB_ORG/ui-kit/styles': resolve(__dirname, '../ui-kit/src/styles/main.scss'),
-    '@YOUR_GITHUB_ORG/ui-kit': resolve(__dirname, '../ui-kit/src/index.ts'),
+    '@neelameghashyam/ui-kit/styles': resolve(__dirname, '../ui-kit/src/styles/main.scss'),
+    '@neelameghashyam/ui-kit': resolve(__dirname, '../ui-kit/src/index.ts'),
   },
 },
   root: __dirname,
