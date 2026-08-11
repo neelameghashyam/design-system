@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue';
-import { FormField, Modal, SearchInput, Button } from '@YOUR_GITHUB_ORG/ui-kit';
+import { FormField, Modal, SearchInput, Button } from '@neelameghashyam/ui-kit';
 
 const email = ref('');
 const open = ref(false);

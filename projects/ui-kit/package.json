@@ -1,6 +1,6 @@
 {
   "name": "@neelameghashyam/ui-kit",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Company design system — Vue 3 component library",
   "type": "module",
   "main": "./dist/index.mjs",

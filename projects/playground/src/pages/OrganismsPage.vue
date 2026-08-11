@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Header, Footer } from '@YOUR_GITHUB_ORG/ui-kit';
+import { Header, Footer } from '@neelameghashyam/ui-kit';
 </script>
 
 <template>

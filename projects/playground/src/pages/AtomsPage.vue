@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Button, Input, Card, Badge, Avatar } from '@YOUR_GITHUB_ORG/ui-kit';
+import { Button, Input, Card, Badge, Avatar } from '@neelameghashyam/ui-kit';
 </script>
 
 <template>
