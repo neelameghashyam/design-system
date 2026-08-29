@@ -5,3 +5,4 @@ export { default as Badge } from './Badge.vue';
 export { default as Avatar } from './Avatar.vue';
 export { default as Checkbox } from './Checkbox.vue';
 export { default as Textarea } from './Textarea.vue';
+export {default as Spinner} from './Spinner.vue';
